@@ -52,35 +52,7 @@ for(int i=0;i<9;i++){
 
 
  return result;
-}/*
-float pratka(t_package *price,float *p,float*p1){
-   // printf("%f",*p);
-   float sumweight=0.0;
-    float sumvolume=0.0;
-    int weight[9]={20,50,100,200,350,500,1000,2000,3000};
-float weightPrize[9]={0.46,0.69,1.02,1.72,2.13,2.44,3.2,4.27,5.03};
-int volume[9]={10,50,100,150,250,400,500,600,10000};
-float volumePrize[9]={0.01,0.11,0.22,0.33,0.56,1.5,3.11,4.89,5.79};
-for(int i=0;i<9;i++){
-   
-    if(price->weight<=weight[i]){
-        price->weight=weight[i];
-        printf("%.2f\n",price->weight);
-        break;
-    }
-   
-}for(int j=0;j<9;j++){
- if(price->volume<=volume[j]){
-        price->volume=volume[j];
-        printf("%.2f\n",price->volume);
-        break;
-    }
 }
- 
-
-printf("%f",sumweight);
- return sumweight;
-}*/
 int main(){
     
     float sum=0.0;
